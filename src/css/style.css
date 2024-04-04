@@ -4,6 +4,13 @@ Clan: Dell
 Fecha: 03/04/2024
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 :root {
     --verde-bosque: #1A5126;
@@ -19,3 +26,163 @@ html {
     font-weight: 500;
     font-style: normal;
 }
+
+.fondo {
+    background-color: var(--beige);
+    padding-top: 80px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 99999;
+}
+
+.header .nav-bar {
+    display: flex;
+    margin-right: 30px;
+    width: 25%;
+    justify-content: space-between;
+}
+.header .nav-bar a {
+    text-decoration: none;
+    color: var(--blanco);
+}
+.seccion-intro {
+    background-image: url(/public/img/imagen1.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px;
+    height: 600px;
+    width: 100%;
+    color: var(--blanco);
+    text-align: center;
+    display: block;
+    padding: 10% 20%;
+}
+
+.seccion-intro h2 {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.seccion-intro p {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.seccion-parques, .seccion-jardines {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion-parques .info, .seccion-jardines .info {
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+}
+
+.fuente-verde {
+    color: var(--verde-bosque);
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.contenerdor-img {
+    width: 70%;
+}
+.seccion-parques .imagenes-grande img, .seccion-jardines .imagenes-grande img {
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.seccion-parques .imagenes-pequeña img, .seccion-jardines .imagenes-pequeña img {
+    height: 350px;
+    width: 49.6%;
+    border-radius: 8px;
+}
+.img1 {
+    margin-right: 2px;
+}
+
+.texto-normas {
+padding: 0 20%;
+color: var(--verde-bosque);
+text-align: center;
+font-weight: 900;
+}
+
+.contenedor-cards {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verde-claro);
+    border-radius: 100px;
+    width: 30%;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.icons i {
+    font-size: 40px;
+    color: var(--blanco);
+}
+
+.titulos-card {
+    color: var(--verde-bosque);
+}
+
+.texto-card {
+    color: var(--blanco);
+}
+
+.footer {
+    background-color: var(--verde-bosque);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--blanco);
+    padding: 0 25px;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.icon-resdes {
+    display: block;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.footer
