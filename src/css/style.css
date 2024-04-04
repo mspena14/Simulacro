@@ -56,10 +56,10 @@ html {
     color: var(--blanco);
 }
 .seccion-intro {
-    background-image: url(/public/img/imagen1.webp);
+    background-image: url(../../public/img/imagen1.webp);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0px;
+    background-size: cover;
+    background-position: center;
     height: 600px;
     width: 100%;
     color: var(--blanco);
